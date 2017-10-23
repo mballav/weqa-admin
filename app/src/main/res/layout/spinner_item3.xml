@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TextView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="150dp"
+    android:layout_height="wrap_content"
+    android:paddingLeft="5dp"
+    android:textSize="14sp"
+    android:gravity="left"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp"
+    android:scrollHorizontally="true"
+    android:ellipsize="end"
+    android:maxLines="1"
+    android:textColor="@color/colorTABtext"
+    android:drawableRight="@drawable/ic_keyboard_arrow_down_black_24dp"
+    android:drawableTint="@color/colorTABtext"
+    android:drawableTintMode="src_over"
+    />

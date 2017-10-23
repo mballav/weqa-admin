@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorMENU">
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp">
+
+            <TextView
+                android:textAlignment="viewEnd"
+                android:text="Organization: "
+                android:textSize="14sp"
+                android:layout_marginRight="10dp"
+                android:textColor="@color/colorTABtext"/>
+
+            <Spinner
+                android:id="@+id/orgSpinner"
+                android:background="@color/colorPrimaryDark"
+                android:spinnerMode="dropdown"
+                android:popupBackground="@color/colorPrimaryDark"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp">
+
+            <TextView
+                android:textAlignment="viewEnd"
+                android:text="Building: "
+                android:textSize="14sp"
+                android:layout_marginRight="10dp"
+                android:textColor="@color/colorTABtext"/>
+
+            <Spinner
+                android:id="@+id/buildingSpinner"
+                android:background="@color/colorPrimaryDark"
+                android:spinnerMode="dropdown"
+                android:popupBackground="@color/colorPrimaryDark"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp">
+
+            <TextView
+                android:textAlignment="viewEnd"
+                android:text="Floor: "
+                android:textSize="14sp"
+                android:layout_marginRight="10dp"
+                android:textColor="@color/colorTABtext"/>
+
+            <Spinner
+                android:id="@+id/floorSpinner"
+                android:background="@color/colorPrimaryDark"
+                android:spinnerMode="dropdown"
+                android:popupBackground="@color/colorPrimaryDark"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="20dp">
+
+            <Button
+                android:id="@+id/nextButton"
+                android:text="Next"
+                android:layout_span="2"
+                android:textColor="@color/colorTABtext"
+                android:minHeight="0dp"
+                android:padding="4dp"
+                android:background="@drawable/super_rounded_button_grey"/>
+
+        </TableRow>
+
+    </TableLayout>
+
+</RelativeLayout>
